@@ -20,6 +20,7 @@ public class TestModDataGenerator {
 
             gen.addProvider(new TestModLanguageProvider(gen, "en_us"));
             gen.addProvider(new TestModItemModelProvider(gen, helper));
+            gen.addProvider(new TestModBlockStateProvider(gen, helper));
         }
     }
 
