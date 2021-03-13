@@ -1,6 +1,7 @@
-package com.matthewlowe.testmod.init;
+package com.matthewlowe.testmod.registry;
 
 import com.matthewlowe.testmod.TestMod;
+import com.matthewlowe.testmod.block.BlockTileEntityRandom;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
@@ -19,6 +20,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COPPER_BLOCK = registerBlock("copper_block",
             () -> new Block(Block.Properties.create(Material.IRON)));
+
+    public static final RegistryObject<Block> RANDOM_BLOCK = registerBlock("random_block",
+            () -> new BlockTileEntityRandom());
 
     public static void initialise(final IEventBus modEventBus) {
         BLOCKS.register(modEventBus);

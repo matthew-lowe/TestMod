@@ -1,7 +1,7 @@
 package com.matthewlowe.testmod.data;
 
 import com.matthewlowe.testmod.TestMod;
-import com.matthewlowe.testmod.init.ModItems;
+import com.matthewlowe.testmod.registry.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;

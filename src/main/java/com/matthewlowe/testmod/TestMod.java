@@ -1,7 +1,8 @@
 package com.matthewlowe.testmod;
 
-import com.matthewlowe.testmod.init.ModBlocks;
-import com.matthewlowe.testmod.init.ModItems;
+import com.matthewlowe.testmod.registry.ModBlocks;
+import com.matthewlowe.testmod.registry.ModItems;
+import com.matthewlowe.testmod.registry.ModTileEntities;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
@@ -25,6 +26,7 @@ public class TestMod
 
         ModItems.initialise(modEventBus);
         ModBlocks.initialise(modEventBus);
+        ModTileEntities.initialise(modEventBus);
 
         DistExecutor.safeRunWhenOn(Dist.CLIENT, () -> clientEvents::registerClientEvents);
     }

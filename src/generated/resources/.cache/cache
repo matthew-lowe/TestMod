@@ -1,5 +1,8 @@
 ce410dfacc9531689c7fb79837ba4080f3f1e6f6 assets/testmod/blockstates/copper_block.json
+559e01f05e56636fb73676d01e39268e1923f3c7 assets/testmod/blockstates/random_block.json
 8fcfede24464e81ffb8859450785bbf47ed2fc75 assets/testmod/lang/en_us.json
 7fcd7c250c625dcf5129361d75a8262500e7b25e assets/testmod/models/block/copper_block.json
+d4e96e9c681df2ea3968b42c4d627f30a930c4ff assets/testmod/models/block/random_block.json
 8e704db6a3dda2a598160565863c4d73fd0aa022 assets/testmod/models/item/copper_block.json
 d6e418047bb8bc7f462ea6a6456d779a7f9a06a9 assets/testmod/models/item/copper_ingot.json
+f4915463feccf5d320d803679d386ad1ef4ce652 assets/testmod/models/item/random_block.json

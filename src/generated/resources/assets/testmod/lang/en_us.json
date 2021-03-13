@@ -1,4 +1,5 @@
 {
   "block.testmod.copper_block": "Copper Block",
+  "block.testmod.random_block": "Random Block",
   "item.testmod.copper_ingot": "Copper Ingot"
 }

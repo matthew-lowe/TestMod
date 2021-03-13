@@ -1,7 +1,7 @@
 package com.matthewlowe.testmod.data;
 
 import com.matthewlowe.testmod.TestMod;
-import com.matthewlowe.testmod.init.ModBlocks;
+import com.matthewlowe.testmod.registry.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -17,6 +17,7 @@ public class TestModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        simpleBlock(ModBlocks.RANDOM_BLOCK);
         simpleBlock(ModBlocks.COPPER_BLOCK);
     }
 
