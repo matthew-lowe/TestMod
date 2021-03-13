@@ -1,0 +1,18 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory
+license="All rights reserved"
+[[mods]] #mandatory
+modId="testmod" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Test Mod" #mandatory
+authors="Me!" #optional
+description='''
+A test mod!
+''' #mndatory
+
+[[dependencies.testmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
